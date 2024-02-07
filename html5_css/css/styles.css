@@ -11,3 +11,26 @@ width: 50%;
 a {
  color: bisque;
 }
+
+h2 {
+    display: block;
+    background-color: #BF861B;
+    text-align: center;
+    color: silver;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+@media(min-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media(min-width: 1024px) {
+    body {
+        background-color: green;
+    }
+}
